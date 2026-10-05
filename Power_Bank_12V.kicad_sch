@@ -8416,6 +8416,16 @@
 		)
 		(uuid "56695854-03e9-4146-8dd6-9ec96deddeab")
 	)
+	(polyline
+		(pts
+			(xy 228.6 11.43) (xy 228.6 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571ee20c-9273-4769-a9e9-bd994bad8e9d")
+	)
 	(wire
 		(pts
 			(xy 321.31 137.16) (xy 328.93 137.16)
