@@ -1,0 +1,56 @@
+ERC report (2026-10-05T10:50:04, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(43.18 mm, 180.34 mm): Symbol P1 Pin 1 [5V, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(77.47 mm, 81.28 mm): Symbol #PWR01 Hidden pin 1 [GND, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(241.30 mm, 43.18 mm): Symbol U1 Pin 1 [VDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(266.70 mm, 82.55 mm): Symbol U2 Pin 1 [VCC, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(318.77 mm, 53.34 mm): Symbol U4 Pin 5 [VCC, Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library '4ms_Connector'
+    ; warning
+    @(40.64 mm, 38.10 mm): Symbol J4 [Conn_01x01_Pin]
+[footprint_link_issues]: The current configuration does not include the footprint library '4ms_Connector'
+    ; warning
+    @(40.64 mm, 48.26 mm): Symbol J5 [Conn_01x01_Pin]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(110.49 mm, 175.26 mm): Symbol R2 Pin 2 [Unspecified, Line]
+    @(106.68 mm, 175.26 mm): Symbol C9 Pin 1 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(110.49 mm, 187.96 mm): Symbol R2 [WSLP12065L000FEA]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(110.49 mm, 187.96 mm): Symbol R2 Pin 1 [Unspecified, Line]
+    @(106.68 mm, 187.96 mm): Symbol C8 Pin 2 [Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CC0603KRX5R8BB225'
+    ; warning
+    @(181.61 mm, 161.29 mm): Symbol C16 [CC0603KRX5R8BB225]
+[footprint_link_issues]: The current configuration does not include the footprint library 'F1F3-1004T-2R2M'
+    ; warning
+    @(184.15 mm, 219.71 mm): Symbol L1 [F1F3-1004T-2R2M]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CH221K'
+    ; warning
+    @(256.54 mm, 48.26 mm): Symbol U1 [CH221K]
+[footprint_link_issues]: The current configuration does not include the footprint library 'TS5A3167DBVR'
+    ; warning
+    @(300.99 mm, 58.42 mm): Symbol U4 [TS5A3167DBVR]
+
+ ** ERC messages: 14  Errors 5  Warnings 9
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
